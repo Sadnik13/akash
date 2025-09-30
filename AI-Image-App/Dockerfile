@@ -17,4 +17,4 @@ VOLUME /data
 
 ENV FLASK_APP=scripts/web.py
 
-CMD ["flask", "run", "--port", "3000", "--host", "0.0.0.0"]
+CMD ["flask", "run", "--port", "30000", "--host", "0.0.0.0"]
